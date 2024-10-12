@@ -1,3 +1,4 @@
+let document = window.document
 let homeTotalScore = document.querySelector("#home > .total-score")
 let guestTotalScore = document.querySelector("#guest > .total-score")
 let counterHome = 0
@@ -60,3 +61,5 @@ function guestPlusThree() {
     guestTotalScore.innerText = result
     console.log(result)
 }
+
+clearHome()

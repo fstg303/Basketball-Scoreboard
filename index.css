@@ -1,0 +1,85 @@
+body{
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 50%; /* Make Card size 50% of total page */
+    height: 25%;
+    background-color: lightgray;
+    border-radius: 20px;
+    display: flex;
+    color: #000;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;  /* Change texxt layour to vertical */
+    justify-content: center; /* Center text and Number display */
+    align-items: center;
+    width: 50%; /* Create two column layout */
+    padding: 10px;
+
+}
+
+/* section Title */
+h2{
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Score Number */
+.total-score{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #101010;
+    border-radius: 10px;
+    padding: 10px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+
+}
+.score-counter{
+    width: 100%;
+    font-size: .8rem;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;     
+    align-content: stretch;
+
+}
+.score-counter button{
+    /* width: .5em;
+    height: .5em;
+    padding: .5em ;
+    margin: 0 .2em ; */
+    border: #101010 solid 1px;
+    flex-grow:1;
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.score-clear{
+    width: 100%;
+    display: flex;
+    justify-content: center;     
+    align-content: stretch;
+}
+
+.btn-clear{
+    border: #101010 solid 1px;
+    flex-grow:1;
+}
